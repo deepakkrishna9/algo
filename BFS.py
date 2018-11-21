@@ -24,8 +24,8 @@ class Graph:
 		visited[node] = True
 
 		while queue:
-        	# Dequeue a vertex from  
-            # queue and print it 
+			# Dequeue a vertex from  
+			# queue and print it 
 			print("Current queue %s"%(str(queue)))
 			s = queue.pop(0) 
 			print("Traversing from %s found %s"%(str(s),str(self.graph[s])))
